@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'Chatforlife'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3749280CE1864E23839F892F5183C6AF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_90D54BE3731C4154A11BB77C31BA915B }}
           package: .
