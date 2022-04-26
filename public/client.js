@@ -7,7 +7,7 @@ do{
    name1 = prompt('Please enter your name: ')
 }while(!name1)
 textarea.addEventListener('keyup', (e) => { //e is the reference to the object which contains information about the event that has just occured
-    if(e.key ==='Enter'){
+    if(e.key ==='Enter' && e.target.value!=""){
        // console.log(e.target.value)
         sendMessage(e.target.value)
     }
